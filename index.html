@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-container">
+            <div class="img-container">
+                <img class="profile-pic" data-testid="profilePicture" src="./assets/me.jpg" alt="profile-pic">
+            </div>
+            <p class="bio" data-testid="shortBio">Frontend developer passionate about building responsive web applications. Skilled in React, Redux, Bootstrap, JavaScript, Firebase and currently learning Nodejs. Currently interning to gain professional experience.</p>
+        </div>
+        <div class="about-me">
+            <p class="name" data-testid="fullName">Abdurrahman Kabir</p>
+            <p class="title" data-testid="jobTitle">Frontend Developer</p><hr />
+            <p class="current-location" data-testid="currentLocation" >Current Location: Zaria</p>
+            <p class="email" data-testid="emailAddress"> Email Address: <span>abdurrahmankabeer2003@gmail.com</span></p>
+            <div class="social-links" data-testid="socialLinks">Social Links:
+                <a href="https://github.com/ABDURRAHMANKABEER">Github </a> ||
+                <a href="https://www.linkedin.com/in/abdurrahman-kabir-10580220b">LinkedIn </a> ||
+                <a href="https://x.com/Mkabdoul003?t=hUDYEYtLoBRl2L009utn7Q&s=09">Twitter </a>
+            </div>
+            <p id="current-time" data-testid="currentTimeUTC">Current Time: </p>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
