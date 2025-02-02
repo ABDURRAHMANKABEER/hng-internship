@@ -72,4 +72,7 @@ a {
     .email {
         word-wrap: break-word;
     }
+    .img-container {
+        margin-bottom: 30px;
+    }
 }
